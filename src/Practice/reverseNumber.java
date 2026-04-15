@@ -10,15 +10,15 @@ public class reverseNumber {
         int num = sc.nextInt();
 
         int n = 0;
-        int sum=0;
+        int rev=0;
 
         while(num!=0){
             n = num%10;
-            sum = sum*10+n;
+            rev = rev*10+n;
             num= num/10;
         }
 
-        System.out.println("The reverse number is "+ sum);
+        System.out.println("The reverse number is "+ rev);
 
     }
 }
